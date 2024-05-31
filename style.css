@@ -1,0 +1,21 @@
+@font-face {
+font-family: Catboo;
+src: url(Catboo.ttf);    /*Freeware Font*/
+}
+
+
+.par {
+  position:relative;
+  margin-left: 19%;
+  margin-top: 13%;
+  font-family: Catboo;
+  color:Green;
+  font-size: 9rem;
+  /*transform: rotate(-30deg);*/
+}
+
+.para {
+
+color:yellow;
+
+}
