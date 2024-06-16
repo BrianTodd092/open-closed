@@ -1,0 +1,16 @@
+var date1 = new Date(); // javaScript Reference to Date Object.
+var date2 = new Date("2024/06/11");
+var date3 = new Date("2024/06/10");
+
+date1.setHours(0, 0, 0, 0);
+date2.setHours(0, 0, 0, 0);
+date3.setHours(0, 0, 0, 0);
+
+
+if (date1.valueOf() == date2.valueOf()) {
+console.log("Holiday");
+}else  if (date1.valueOf() == date3.valueOf()){
+  console.log("Holiday");
+}else{
+console.log("Date not Equal");
+}

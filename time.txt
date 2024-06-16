@@ -1,0 +1,40 @@
+/*let count = 20;
+const timer = setInterval (functiona, 1000)
+function functiona() {
+  count--;
+  console.log(count);
+  document.getElementById('timer').innerHTML = count;
+if (count === 0){
+
+  clearInterval(timer);
+  document.getElementById('timer').innerHTML = "Timed";
+}
+}*/
+var countdown = new Date("2024-06-13 21:32:00");// 24 hr
+
+console.log(countdown);
+
+
+var x = setInterval(functiona, 1000);
+function functiona(){
+  var date = new Date();
+string = date.toISOString();
+  var distance = countdown - date;
+
+
+
+
+document.getElementById('timer').innerHTML =  string;
+
+if (distance < 0) {
+clearInterval(x);
+  document.getElementById('timer').innerHTML = "Time Up";
+}
+}
+
+/*
+var dater = new Date();
+var string = dater.toISOString();
+
+document.getElementById('d').innerHTML = string;
+*/
